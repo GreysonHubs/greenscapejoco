@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greenscape</title>
+    <title>Greenscape Leawood/Overland Park</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="icon" type="image/x-icon" href="/imgs/GreenscapeLogo.png">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -12,31 +12,34 @@
 </head>
 
 <body>
-    <!-- <div class="navbarcasing">
+    <div class="navbarcasing" id="navbarcasing">
         <div class="navbar">
-            <div class="links">
+            <!-- <div class="links">
                 <ul>
                     <li><a href="#toservices">Our Services</a></li>
                     <li><a href="#aboutME">About Us</a></li>
                     <li><a href="#contactUs">Contact Us</a></li>
                     <li><a href="#contactUs">Hire</a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="alert" id="snowalert">
                 <div class="alerticon">
                     <i class="fa-solid fa-circle-info"></i>
                 </div>
                 <div class="alerttext">
-                    <h1>Snow</h1>
-                    <p>We will be shoveling driveways today because of the snow that we are getting! <a href="#contactus" style="color: rgba(1, 162, 255, 0.601);">Contact us</a> for
-                        more information and to schedule!</p>
+                    <h1>Lawn Care</h1>
+                    <p>This spring, summer, and fall we will be taking care of yard around the neighborhood! Would you
+                        like help this summer? <a href="#contactUs" style="color: rgba(1, 162, 255, 0.601);">Contact
+                            us</a> for
+                        more information and to schedule! We also offer weekly services to people who would perfer their
+                        lawn to be taken care of more often!</p>
                 </div>
                 <div class="alertcloseicon" id="snowalertcloseicon">
                     <i class="fa-solid fa-x"></i>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <main class="hero">
         <img src="./imgs/lawnphoto.jpg" alt="" class="hero-image">
         <div class="hero-text">
@@ -52,6 +55,7 @@
             </div>
             <div class="servicetext">
                 <h1>Mowing</h1>
+                <h3 style="color: green;">Contact for Options!</h3>
                 <p>Our mowing services ensure that your lawn is perfectly trimmed and maintained.</p>
             </div>
         </div>
@@ -61,6 +65,7 @@
             </div>
             <div class="servicetext">
                 <h1>Edging & Weedwacking</h1>
+                <h3 style="color: green;">Contact for Options!</h3>
                 <p>Our edging and weedwacking services ensure that your lawn is lined with perfection.</p>
             </div>
         </div>
@@ -70,6 +75,7 @@
             </div>
             <div class="servicetext">
                 <h1>Leaf Removal</h1>
+                <h3 style="color: green;">Contact for Options!</h3>
                 <p>Our leaf removal services ensure that your yard is free of leaves and debris.</p>
             </div>
         </div>
@@ -79,9 +85,42 @@
             </div>
             <div class="servicetext">
                 <h1>Snow Shoveling</h1>
-                <p>Our snow shoveling services ensure that your driveway and walkways are clear and safe.</p>
+                <h3 style="color: red;">Not In Season</h3>
+                <p>Our snow shoveling services ensure that your driveway and walkways are clear and safe to walk on
+                    during frigid times.</p>
             </div>
         </div>
+        <div class="servicebox">
+            <div class="serviceicon">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="servicetext">
+                <h1>Gardening/Other Services</h1>
+                <h3 style="color: green;">Contact for Options!</h3>
+                <p>We may provide other services upon request, for this option, please contact us!</p>
+            </div>
+        </div>
+    </div>
+    <div class="book">
+        <h1>Book Here!</h1>
+        <p class="booktext">Please feel free to reach out if you have any further questions, comments, or concerns, or if you would like to make further arrangements, like weekly services! You can expect to get a confirmation text or email within the day. For gardening and other services, please contact us directly!</p>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="stylesheets/googlebooking.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+            (function () {
+                var target = document.currentScript;
+                window.addEventListener('load', function () {
+                    calendar.schedulingButton.load({
+                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3rd4wy-mj-Prgy50TdTPAUZ7HQjonUYAiHYtJDYyA4N4IQduvw7b05NR3pD7deQwHxyJWqy-eA?gv=true',
+                        color: '#33B679',
+                        label: 'Book a Service',
+                        target,
+                    });
+                });
+            })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
     </div>
     <div class="aboutME" id="aboutME">
         <!-- <div class="aboutMEimg">
@@ -89,7 +128,11 @@
         </div> -->
         <div class="aboutMEtext">
             <h1>About Us!</h1>
-            <p>Established in 2024, I founded this buisness when I was 13. We mow yards, edge the grass, pickup leaves, and shovel snow! I am now 14 and play soccer and basketball, I referee youth soccer at the scheels soccer complex, I partcipate in Civil Air Patrol(Aviation Program), and I have an intrest in coding and computer science! I also enjoy hanging out with my family and friends.</p>
+            <p>Established in 2024, I founded this buisness when I was 13. We mow yards, edge the grass, pickup leaves,
+                and shovel snow! I am now 14 and play soccer and basketball, In the fall I will be a freshman at Blue Valley North High School. I referee youth soccer for Heartland Soccer
+                Association as well as Kansas Youth Soccer Association(KSYSA) during state cup! I partcipate in Civil
+                Air Patrol(Aviation Program), and I have an intrest in aviation and hope to be a commericial pilot for a
+                major airline! I also enjoy hanging out with my family and friends during my free time!</p>
         </div>
     </div>
     <div class="contactUs" id="contactUs">
