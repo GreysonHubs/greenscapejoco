@@ -283,7 +283,10 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.book h1 {
     color: #6a8d49;
 }
 

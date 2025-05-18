@@ -21,4 +21,8 @@ This update is the first full cite update. This update comes with a complete goo
 ### Full Site Update v2.1.1
 This update comes with a completed Readme up to this point.
 
+### Full Site Update v2.1.2
+This update comes with a updated booking text description because the size of the descrition was not right when shrinked down to mobile size.
+
+
 #### Last updated May, 18th 2025 5:58pm cst
