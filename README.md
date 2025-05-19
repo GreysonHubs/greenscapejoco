@@ -33,4 +33,7 @@ Favicon addition.
 ### Full Site Update v2.2.2
 Update booking screen size alert to only show on mobile devices.
 
-#### Last updated May, 19th 2025 4:37pm cst
+### Full Site Update v2.2.3
+Updated meta tags.
+
+#### Last updated May, 19th 2025 6:25pm cst
