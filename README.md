@@ -30,4 +30,7 @@ This update comes with a fully functional booking system, vercel visitor analyti
 ### Full Site Update v2.2.1
 Favicon addition.
 
-#### Last updated May, 18th 2025 11:35pm cst
+### Full Site Update v2.2.2
+Update booking screen size alert to only show on mobile devices.
+
+#### Last updated May, 19th 2025 4:37pm cst

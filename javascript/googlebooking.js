@@ -12,7 +12,10 @@ this.gcal = this.gcal || {}; (function (_) {
         */
         var f = function () { let a = null; if (!e) return a; try { const b = c => { return c }; a = e.createPolicy("goog#html", { createHTML: b, createScript: b, createScriptURL: b }) } catch (b) { } return a }, l = function (a) { var b; g === void 0 && (g = f()); a = (b = g) ? b.createScriptURL(a) : a; return new k(a) }, n = function (a) { if (m.test(a)) return a }, q = function (a, b) {
             a.removeAttribute("srcdoc"); if (b instanceof k) throw new p("TrustedResourceUrl", 2); var c = "allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-storage-access-by-user-activation".split(" ");
-            a.setAttribute("sandbox", ""); for (let d = 0; d < c.length; d++)a.sandbox.supports && !a.sandbox.supports(c[d]) || a.sandbox.add(c[d]); b = n(b); b !== void 0 && (a.src = b); popupbookingalert.style.display = 'flex';
+            a.setAttribute("sandbox", ""); for (let d = 0; d < c.length; d++)a.sandbox.supports && !a.sandbox.supports(c[d]) || a.sandbox.add(c[d]); b = n(b); b !== void 0 && (a.src = b);
+            if (window.innerWidth < 768) {
+                popupbookingalert.style.display = 'flex';
+            }
         }, t = function (a, b) { if (b instanceof k) { if (b instanceof k) b = b.h; else throw Error("b"); a.href = b.toString(); a.rel = "stylesheet" } else { if (r.indexOf("stylesheet") === -1) throw Error("c`stylesheet"); b = n(b); b !== void 0 && (a.href = b, a.rel = "stylesheet") } }, u = function (a, ...b) {
             if (b.length === 0) return l(a[0]); let c = a[0]; for (let d = 0; d < b.length; d++)c += encodeURIComponent(b[d]) +
                 a[d + 1]; return l(c)
@@ -39,7 +42,7 @@ this.gcal = this.gcal || {}; (function (_) {
 // Google Inc.
 
 function closeBookingPopup() {
-  popupbookingalert.style.display = 'none';
+    popupbookingalert.style.display = 'none';
 }
 
 // Script edited by: Greyson Hubler
