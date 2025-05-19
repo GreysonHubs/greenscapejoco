@@ -27,4 +27,7 @@ This update comes with a updated booking text description because the size of th
 ### Full Site Update v2.2.0
 This update comes with a fully functional booking system, vercel visitor analytics, vercel speed analytics, and the necessary items needed for google search console.
 
-#### Last updated May, 18th 2025 11:25pm cst
+### Full Site Update v2.2.1
+Favicon addition.
+
+#### Last updated May, 18th 2025 11:35pm cst
