@@ -9,6 +9,9 @@
     <link rel="icon" type="image/x-icon" href="/imgs/GreenscapeLogo.png">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DIToFxcng4C0Z9vm4qi1R9q7_uBeIe9e-wVxaCb-mf8" />
+    <meta name="description" content="Greenscape Yard Care is a reliable local lawn care service that provides mowing, edging, leaf removal, and snow shoveling services in the Leawood and Overland Park area.">
 </head>
 
 <body>
@@ -103,10 +106,12 @@
     </div>
     <div class="book">
         <h1>Book Here!</h1>
-        <p class="aboutMEtext">Please feel free to reach out if you have any further questions, comments, or concerns, or if you would like to make further arrangements, like weekly services! You can expect to get a confirmation text or email within the day. For gardening and other services, please contact us directly!</p>
+        <p class="aboutMEtext">Please feel free to reach out if you have any further questions, comments, or concerns,
+            or if you would like to make further arrangements, like weekly services! You can expect to get a
+            confirmation text or email within the day. For gardening and other services, please contact us directly!</p>
         <!-- Google Calendar Appointment Scheduling begin -->
         <link href="stylesheets/googlebooking.css" rel="stylesheet">
-        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script src="javascript/googlebooking.js" async></script>
         <script>
             (function () {
                 var target = document.currentScript;
@@ -122,6 +127,16 @@
         </script>
         <!-- end Google Calendar Appointment Scheduling -->
     </div>
+    <div id="popupbookingalert">
+        <div id="closebookingpopup" onclick="closeBookingPopup()">
+            <i class="fa-solid fa-x"></i>
+        </div>
+        <h1>Please Note</h1>
+        <p>Booking availability works a lot better on a computer or a device with a large screen. Small screened
+            devices, such as a mobile phone, may be a little bit more difficult to work with, however, it is still
+            possible! If you would like, you can contact us and we can add you to the schedule manually! Thank you for
+            your patience!</p>
+    </div>
     <div class="aboutME" id="aboutME">
         <!-- <div class="aboutMEimg">
             <img src="./imgs/greysonhubler.jpg" alt="">
@@ -129,8 +144,9 @@
         <div class="aboutMEtext">
             <h1>About Us!</h1>
             <p>Established in 2024, I founded this buisness when I was 13. We mow yards, edge the grass, pickup leaves,
-                and shovel snow! I am now 14 and play soccer and basketball, In the fall I will be a freshman at Blue Valley North High School. I referee youth soccer for Heartland Soccer
-                Association as well as Kansas Youth Soccer Association(KSYSA) during state cup! I partcipate in Civil
+                and shovel snow! I am now 14 and play soccer and basketball, In the fall I will be a freshman at Blue
+                Valley North High School. I referee youth soccer for Heartland Soccer
+                Association as well as Kansas Youth Soccer Association (KSYSA) during state cup! I partcipate in Civil
                 Air Patrol(Aviation Program), and I have an intrest in aviation and hope to be a commericial pilot for a
                 major airline! I also enjoy hanging out with my family and friends during my free time!</p>
         </div>
@@ -167,10 +183,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="javascript/script.js"></script>
     <script src="https://kit.fontawesome.com/b7dc2db0d1.js" crossorigin="anonymous"></script>
+    <!-- Vercel Visitor Insights -->
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
+    <!-- Vercel Speed Insights -->
     <script>
         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     </script>
