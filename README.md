@@ -19,7 +19,7 @@ Hero photo fixes - photo was uploaded correctly and was being presented correctl
 This update is the first full cite update. This update comes with a complete google booking form and booking section, a refreshed about me, and a update to our services.
 
 ### Full Site Update v2.1.1
-This update comes with a completed Readme up to this point.
+This update comes with a completed current README.
 
 ### Full Site Update v2.1.2
 This update comes with a updated booking text description because the size of the descrition was not right when shrinked down to mobile size.
@@ -35,5 +35,8 @@ Update booking screen size alert to only show on mobile devices.
 
 ### Full Site Update v2.2.3
 Updated meta tags.
+
+### Full Site Update v2.2.4
+Updated service cards. Updated README from v2.1.1.
 
 #### Last updated May, 19th 2025 6:25pm cst
