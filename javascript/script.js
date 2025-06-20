@@ -32,9 +32,17 @@ function openservices() {
 
 const carriagecrossingandcobooking = document.getElementById('CCatNallBooking');
 const neighborhoodpopup = document.getElementById('neighborhoodpopup');
+const schedulepagefiller = document.getElementById('schedulepagefiller');
 const notreadyforservice = document.getElementById('snotreadyforservice');
 
 function open127atnall() {
     carriagecrossingandcobooking.style.display = 'block';
     neighborhoodpopup.style.display = 'none';
+    schedulepagefiller.style.display = 'none';
+}
+
+function open143atnall() {
+    notreadyforservice.style.display = 'flex';
+    neighborhoodpopup.style.display = 'none';
+    schedulepagefiller.style.display = 'none';
 }
