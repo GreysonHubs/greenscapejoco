@@ -4,42 +4,7 @@ We are a local lawn care service that is servicing the Leawood and Overland Park
 
 ## v1
 
-### First Initial Push V1.1
-This push was the first to go out for our new website that can be found at greenscape.vercel.app!
+### Site Publishing for New Greenscape/Branding
+This update is changing everything, from a boring one page design to an awesome, attention grabbing website we are excited to renovate our page to create a better expierence for our users!
 
-### Temporary v1.1.1 and v1.1.2
-Hero photo fixes - photos were not displaying correctly and then would not display.
-
-### Temporary v1.1.3
-Hero photo fixes - photo was uploaded correctly and was being presented correctly as well. This fix also came with a citation update for the photo.
-
-## v2
-
-### Full Site Update v2.1.0
-This update is the first full cite update. This update comes with a complete google booking form and booking section, a refreshed about me, and a update to our services.
-
-### Full Site Update v2.1.1
-This update comes with a completed current README.
-
-### Full Site Update v2.1.2
-This update comes with a updated booking text description because the size of the descrition was not right when shrinked down to mobile size.
-
-### Full Site Update v2.2.0
-This update comes with a fully functional booking system, vercel visitor analytics, vercel speed analytics, and the necessary items needed for google search console.
-
-### Full Site Update v2.2.1
-Favicon addition.
-
-### Full Site Update v2.2.2
-Update booking screen size alert to only show on mobile devices.
-
-### Full Site Update v2.2.3
-Updated meta tags.
-
-### Full Site Update v2.2.4
-Updated service cards. Updated README from v2.1.1.
-
-### Full Site Update v2.2.5
-Updated/reworded about me section.
-
-#### Last updated June, 14th 2025 2:38pm cst
+#### Last updated June, 20th 2025 --:--pm cst
