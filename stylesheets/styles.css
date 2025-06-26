@@ -805,3 +805,25 @@ main img {
     color: var(--accent-color);
     text-decoration: none;
 }
+
+@media screen and (max-width: 625px) {
+    .contactcontianer img {
+        width: 400px;
+        height: 450px;
+    }
+
+    .contactinfo h2 {
+        font-size: 1.5rem;
+    }
+
+    .contactinfo p {
+        font-size: 1rem;
+    }
+
+    .contactcontianer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
