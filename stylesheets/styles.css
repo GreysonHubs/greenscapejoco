@@ -542,12 +542,19 @@ main img {
     color: var(--accent-color);
 }
 
+.testimonialcontainer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 @media screen and (max-width: 650px) {
    .testimoialscards {
         align-items: center;
         justify-content: left;
         overflow: scroll;
-        width: 900px;
+        width: fit-content;
     }
     .testcard {
         width: 350px !important;
