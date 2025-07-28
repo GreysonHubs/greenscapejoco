@@ -549,6 +549,9 @@ main img {
         overflow: scroll;
         width: 100%;
     }
+    .testcard {
+        width: 350px !important;
+    }
 }
 
 /* About Us */
