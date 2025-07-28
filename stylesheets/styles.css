@@ -496,6 +496,7 @@ main img {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 .testcard {
@@ -540,6 +541,13 @@ main img {
 
 .stargold {
     color: var(--accent-color);
+}
+
+@media screen and (max-width: 650px) {
+   .testimoialscards {
+        align-items: left;
+        justify-content: center;
+    }
 }
 
 /* About Us */
