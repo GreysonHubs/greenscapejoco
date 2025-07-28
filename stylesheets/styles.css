@@ -547,7 +547,7 @@ main img {
         align-items: center;
         justify-content: left;
         overflow: scroll;
-        width: 100%;
+        width: 900px;
     }
     .testcard {
         width: 350px !important;
