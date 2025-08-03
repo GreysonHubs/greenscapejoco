@@ -469,7 +469,7 @@ main img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 10%;
+    padding: 50px 1px;
 }
 
 .testimoialheader {
@@ -489,17 +489,29 @@ main img {
     margin-top: 10px;
     margin-bottom: 7px;
 }
+.testimonialcardcontainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
 
 .testimoialscards {
     width: fit-content;
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
 }
 
 .testcard {
-    width: 350px !important;
+    min-width: 350px !important;
+    max-width: 350px !important;
     height: 250px;
     border-radius: 10px;
     padding: 20px;
@@ -542,12 +554,6 @@ main img {
     color: var(--accent-color);
 }
 
-.testimonialcontainer {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 
 @media screen and (max-width: 650px) {
    .testimoialscards {
